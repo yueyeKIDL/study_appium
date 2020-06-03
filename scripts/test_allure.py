@@ -16,21 +16,16 @@ class TestAction:
         print('test_username')
         assert True
 
-    @pytest.mark.skipif(True, reason='')
+    # @pytest.mark.skipif(True, reason='')
     @allure.step(title='密码')
     def test_pwd(self):
         print('test_pwd')
         assert False
 
-    # BLOCKER = 'blocker'
-    # CRITICAL = 'critical'
-    # NORMAL = 'normal'
-    # MINOR = 'minor'
-    # TRIVIAL = 'trivial'
     @allure.severity(allure.severity_level.BLOCKER)
     @allure.step(title='测试登录脚本')
     def test_login(self):
-        allure.attach('输入内容：yueyeKIDL', '输入用户名')
+        allure.attach('输入内容：chenxiaonan', '输入用户名')
         print('输入用户名')
 
         allure.attach('输入内容：123456', '输入密码')
