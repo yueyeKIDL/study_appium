@@ -25,7 +25,7 @@ class TestAction:
     @allure.severity(allure.severity_level.BLOCKER)
     @allure.step(title='测试登录脚本')
     def test_login(self):
-        allure.attach('输入内容：chenxiaonan', '输入用户名')
+        allure.attach('输入内容：yueyeKIDL', '输入用户名')
         print('输入用户名')
 
         allure.attach('输入内容：123456', '输入密码')
