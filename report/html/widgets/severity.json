@@ -1,0 +1,31 @@
+[ {
+  "uid" : "91a19cc62689aeb8",
+  "name" : "test_username",
+  "time" : {
+    "start" : 1591155242509,
+    "stop" : 1591155242509,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d47254409d35ee82",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1591155242526,
+    "stop" : 1591155242529,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "99dc4969332b3df4",
+  "name" : "test_pwd",
+  "time" : {
+    "start" : 1591155242518,
+    "stop" : 1591155242519,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
