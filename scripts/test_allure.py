@@ -16,9 +16,10 @@ class TestAction:
         print('test_username')
         assert True
 
-    # @pytest.mark.skipif(True, reason='')
     @allure.step(title='密码')
     def test_pwd(self):
+        allure.attach('输入内容：666666', '输入密码')
+
         print('test_pwd')
         assert False
 
