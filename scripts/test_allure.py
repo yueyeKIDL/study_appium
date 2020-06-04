@@ -1,3 +1,5 @@
+import time
+
 import allure
 import pytest
 
@@ -8,6 +10,9 @@ class TestAction:
 
     def setup_class(self):
         self.driver = Base().driver
+
+    def teardown_class(self):
+        self.driver.quit()
 
     def setup(self):
         pass
@@ -38,10 +43,15 @@ class TestAction:
         print('输入密码')
         assert True
 
-    # @allure.step(title='测试截图上传到报告')
+    @allure.step(title='测试截图上传到报告')
     def test_upload_screenshots_to_report(self):
+        self.driver.find_element_by_xpath("//*[@text='WLAN']").click()
+        time.sleep(3)
+        
         file_path = './screen/report_screen_shot.png'
         self.driver.get_screenshot_as_file(file_path)
         with open(file_path, 'rb') as f:
-            allure.attach('上传截图', f.read(), allure.attachment_type.PNG)
+            allure.attach(f.read(), '上传截图', allure.attachment_type.PNG)
+        # allure.attach(self.driver.get_screenshot_as_png(), "上传截图", allure.attachment_type.PNG)
+
         assert True

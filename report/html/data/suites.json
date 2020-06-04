@@ -9,12 +9,12 @@
         "name" : "TestAction",
         "children" : [ {
           "name" : "test_username",
-          "uid" : "1da83d827bec0da9",
+          "uid" : "f5b7bae26a1ed58c",
           "parentUid" : "ab9de2a67c13c5470e21e6b4586a9997",
           "status" : "skipped",
           "time" : {
-            "start" : 1591266826903,
-            "stop" : 1591266826903,
+            "start" : 1591276579899,
+            "stop" : 1591276579899,
             "duration" : 0
           },
           "flaky" : false,
@@ -22,26 +22,39 @@
           "parameters" : [ ]
         }, {
           "name" : "test_pwd",
-          "uid" : "3359a25f0ba77d09",
+          "uid" : "e6ae1720a4db6dc1",
           "parentUid" : "ab9de2a67c13c5470e21e6b4586a9997",
           "status" : "failed",
           "time" : {
-            "start" : 1591266845990,
-            "stop" : 1591266845997,
-            "duration" : 7
+            "start" : 1591276598771,
+            "stop" : 1591276598776,
+            "duration" : 5
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "test_login",
-          "uid" : "6df2565164feae7e",
+          "uid" : "8a7ac0ffb534839d",
           "parentUid" : "ab9de2a67c13c5470e21e6b4586a9997",
           "status" : "passed",
           "time" : {
-            "start" : 1591266863795,
-            "stop" : 1591266863798,
+            "start" : 1591276599251,
+            "stop" : 1591276599254,
             "duration" : 3
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_upload_screenshots_to_report",
+          "uid" : "87f9bea97cad4619",
+          "parentUid" : "ab9de2a67c13c5470e21e6b4586a9997",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591276599259,
+            "stop" : 1591276604731,
+            "duration" : 5472
           },
           "flaky" : false,
           "newFailed" : false,

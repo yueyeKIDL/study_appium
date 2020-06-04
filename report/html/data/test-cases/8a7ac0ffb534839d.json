@@ -1,55 +1,85 @@
 {
-  "uid" : "6df2565164feae7e",
+  "uid" : "8a7ac0ffb534839d",
   "name" : "test_login",
   "fullName" : "scripts.test_allure.TestAction#test_login",
   "historyId" : "ece4a89b220919f753d2e35ef03946c1",
   "time" : {
-    "start" : 1591266863795,
-    "stop" : 1591266863798,
+    "start" : 1591276599251,
+    "stop" : 1591276599254,
     "duration" : 3
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
-  "beforeStages" : [ ],
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1591276579918,
+      "stop" : 1591276598770,
+      "duration" : 18852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "测试登录脚本",
       "time" : {
-        "start" : 1591266863795,
-        "stop" : 1591266863798,
+        "start" : 1591276599251,
+        "stop" : 1591276599254,
         "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "a72af6a879fab6e7",
+        "uid" : "a9dad26b155babc9",
         "name" : "输入用户名",
-        "source" : "a72af6a879fab6e7.attach",
+        "source" : "a9dad26b155babc9.attach",
         "type" : "text/plain",
         "size" : 24
       }, {
-        "uid" : "18d76e6c8eb28efa",
+        "uid" : "2a875033226c4ddb",
         "name" : "输入密码",
-        "source" : "18d76e6c8eb28efa.attach",
+        "source" : "2a875033226c4ddb.attach",
         "type" : "text/plain",
         "size" : 21
       } ],
       "parameters" : [ ],
       "shouldDisplayMessage" : false,
       "attachmentsCount" : 2,
-      "hasContent" : true,
-      "stepsCount" : 0
+      "stepsCount" : 0,
+      "hasContent" : true
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 2,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "stepsCount" : 1,
+    "hasContent" : true
   },
-  "afterStages" : [ ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1591276604732,
+      "stop" : 1591276606717,
+      "duration" : 1985
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
   "labels" : [ {
     "name" : "severity",
     "value" : "blocker"
@@ -67,7 +97,7 @@
     "value" : "DESKTOP-CNIU27R"
   }, {
     "name" : "thread",
-    "value" : "13536-MainThread"
+    "value" : "20236-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -91,6 +121,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6df2565164feae7e.json",
+  "source" : "8a7ac0ffb534839d.json",
   "parameterValues" : [ ]
 }

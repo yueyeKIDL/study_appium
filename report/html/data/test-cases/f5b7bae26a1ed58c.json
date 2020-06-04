@@ -1,20 +1,50 @@
 {
-  "uid" : "1da83d827bec0da9",
+  "uid" : "f5b7bae26a1ed58c",
   "name" : "test_username",
   "fullName" : "scripts.test_allure.TestAction#test_username",
   "historyId" : "9783cee874bbbe5c2464fee65547a416",
   "time" : {
-    "start" : 1591266826903,
-    "stop" : 1591266826903,
+    "start" : 1591276579899,
+    "stop" : 1591276579899,
     "duration" : 0
   },
   "status" : "skipped",
   "statusMessage" : "Skipped: condition: True",
-  "statusTrace" : "('scripts\\\\test_allure.py', 15, 'Skipped: condition: True')",
+  "statusTrace" : "('scripts\\\\test_allure.py', 23, 'Skipped: condition: True')",
   "flaky" : false,
   "newFailed" : false,
-  "beforeStages" : [ ],
-  "afterStages" : [ ],
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1591276579918,
+      "stop" : 1591276598770,
+      "duration" : 18852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1591276604732,
+      "stop" : 1591276606717,
+      "duration" : 1985
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
   "labels" : [ {
     "name" : "tag",
     "value" : "@pytest.mark.skipif(True, reason='')"
@@ -32,7 +62,7 @@
     "value" : "DESKTOP-CNIU27R"
   }, {
     "name" : "thread",
-    "value" : "13536-MainThread"
+    "value" : "20236-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -56,6 +86,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.skipif(True, reason='')" ]
   },
-  "source" : "1da83d827bec0da9.json",
+  "source" : "f5b7bae26a1ed58c.json",
   "parameterValues" : [ ]
 }
