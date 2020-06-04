@@ -1,12 +1,12 @@
 {
-  "uid" : "88beb4476c7bd5ab",
+  "uid" : "6df2565164feae7e",
   "name" : "test_login",
   "fullName" : "scripts.test_allure.TestAction#test_login",
   "historyId" : "ece4a89b220919f753d2e35ef03946c1",
   "time" : {
-    "start" : 1591153287626,
-    "stop" : 1591153287628,
-    "duration" : 2
+    "start" : 1591266863795,
+    "stop" : 1591266863798,
+    "duration" : 3
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,40 +17,43 @@
     "steps" : [ {
       "name" : "测试登录脚本",
       "time" : {
-        "start" : 1591153287626,
-        "stop" : 1591153287628,
-        "duration" : 2
+        "start" : 1591266863795,
+        "stop" : 1591266863798,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "56c2cda011d0829a",
+        "uid" : "a72af6a879fab6e7",
         "name" : "输入用户名",
-        "source" : "56c2cda011d0829a.attach",
+        "source" : "a72af6a879fab6e7.attach",
         "type" : "text/plain",
         "size" : 24
       }, {
-        "uid" : "8ae905794c874cd5",
+        "uid" : "18d76e6c8eb28efa",
         "name" : "输入密码",
-        "source" : "8ae905794c874cd5.attach",
+        "source" : "18d76e6c8eb28efa.attach",
         "type" : "text/plain",
         "size" : 21
       } ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : true,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 2,
-      "shouldDisplayMessage" : false
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
-    "hasContent" : true,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 2,
-    "shouldDisplayMessage" : false
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
     "name" : "parentSuite",
     "value" : "scripts"
   }, {
@@ -64,7 +67,7 @@
     "value" : "DESKTOP-CNIU27R"
   }, {
     "name" : "thread",
-    "value" : "2276-MainThread"
+    "value" : "13536-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -80,12 +83,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "88beb4476c7bd5ab.json",
+  "source" : "6df2565164feae7e.json",
   "parameterValues" : [ ]
 }

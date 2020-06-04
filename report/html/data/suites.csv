@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"skipped","Wed Jun 03 11:34:02 CST 2020","Wed Jun 03 11:34:02 CST 2020","0","scripts","test_allure","TestAction","","","test_username",""
-"skipped","Wed Jun 03 11:34:02 CST 2020","Wed Jun 03 11:34:02 CST 2020","1","scripts","test_allure","TestAction","","","test_pwd",""
-"passed","Wed Jun 03 11:34:02 CST 2020","Wed Jun 03 11:34:02 CST 2020","3","scripts","test_allure","TestAction","","","test_login",""
+"passed","Thu Jun 04 18:34:23 CST 2020","Thu Jun 04 18:34:23 CST 2020","3","scripts","test_allure","TestAction","","","test_login",""
+"skipped","Thu Jun 04 18:33:46 CST 2020","Thu Jun 04 18:33:46 CST 2020","0","scripts","test_allure","TestAction","","","test_username",""
+"failed","Thu Jun 04 18:34:05 CST 2020","Thu Jun 04 18:34:05 CST 2020","7","scripts","test_allure","TestAction","","","test_pwd",""

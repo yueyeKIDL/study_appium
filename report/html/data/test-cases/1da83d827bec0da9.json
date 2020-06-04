@@ -1,16 +1,16 @@
 {
-  "uid" : "cebafbce2ca8978a",
-  "name" : "test_pwd",
-  "fullName" : "scripts.test_allure.TestAction#test_pwd",
-  "historyId" : "2682f6900b4fe48db51340df356b5102",
+  "uid" : "1da83d827bec0da9",
+  "name" : "test_username",
+  "fullName" : "scripts.test_allure.TestAction#test_username",
+  "historyId" : "9783cee874bbbe5c2464fee65547a416",
   "time" : {
-    "start" : 1591153287618,
-    "stop" : 1591153287618,
+    "start" : 1591266826903,
+    "stop" : 1591266826903,
     "duration" : 0
   },
   "status" : "skipped",
   "statusMessage" : "Skipped: condition: True",
-  "statusTrace" : "('scripts\\\\test_allure.py', 19, 'Skipped: condition: True')",
+  "statusTrace" : "('scripts\\\\test_allure.py', 15, 'Skipped: condition: True')",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ ],
@@ -32,7 +32,7 @@
     "value" : "DESKTOP-CNIU27R"
   }, {
     "name" : "thread",
-    "value" : "2276-MainThread"
+    "value" : "13536-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -48,12 +48,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ "@pytest.mark.skipif(True, reason='')" ]
   },
-  "source" : "cebafbce2ca8978a.json",
+  "source" : "1da83d827bec0da9.json",
   "parameterValues" : [ ]
 }
