@@ -47,7 +47,7 @@ class TestAction:
     def test_upload_screenshots_to_report(self):
         self.driver.find_element_by_xpath("//*[@text='WLAN']").click()
         time.sleep(3)
-        
+
         file_path = './screen/report_screen_shot.png'
         self.driver.get_screenshot_as_file(file_path)
         with open(file_path, 'rb') as f:
