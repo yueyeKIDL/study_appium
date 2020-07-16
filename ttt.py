@@ -1,1 +1,2 @@
-print(f"test_{'_'.join('Upload screenshots to the report'.lower().split())}")
+if __name__ == '__main__':
+    print('hello!')
